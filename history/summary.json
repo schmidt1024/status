@@ -76,17 +76,19 @@
     "url": "https://einsatz.demo.agentschmidt.com/up/nightly",
     "icon": "https://icons.duckduckgo.com/ip3/einsatz.demo.agentschmidt.com.ico",
     "slug": "einsatzplanung-backup-und-reset",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 548,
-    "timeDay": 548,
-    "timeWeek": 548,
-    "timeMonth": 548,
-    "timeYear": 548,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "96.98%",
+    "uptimeDay": "96.98%",
+    "uptimeWeek": "96.98%",
+    "uptimeMonth": "96.98%",
+    "uptimeYear": "96.98%",
+    "time": 540,
+    "timeDay": 540,
+    "timeWeek": 540,
+    "timeMonth": 540,
+    "timeYear": 540,
+    "dailyMinutesDown": {
+      "2026-11-08": 0
+    }
   }
 ]
