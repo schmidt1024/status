@@ -1,31 +1,34 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime for agentschmidt.com and the demos (https://upptime.js.org/docs/configuration)
+owner: schmidt1024
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: agentschmidt.com
+    url: https://agentschmidt.com/
+  - name: Demo Offertentool
+    url: https://offerten.demo.agentschmidt.com/login
+  - name: Demo Einsatzplanung
+    url: https://einsatz.demo.agentschmidt.com/login
+  # 503 when the nightly backup or demo reset did not run within 26 h (App\Support\Heartbeat)
+  - name: Offertentool Backup und Reset
+    url: https://offerten.demo.agentschmidt.com/up/nightly
+  - name: Einsatzplanung Backup und Reset
+    url: https://einsatz.demo.agentschmidt.com/up/nightly
+
+# Alerts: GitHub opens an issue per outage and mails the repo owner (watch the repo: "All activity").
+assignees:
+  - schmidt1024
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /status
+  name: Agent Schmidt · Status
+  introTitle: "Status von agentschmidt.com und den Demos"
+  introMessage: Automatische Prüfung alle 5 Minuten.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: agentschmidt.com
+      href: https://agentschmidt.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  uptime: "*/5 * * * *"
