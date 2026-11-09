@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1011,
-    "timeDay": 1011,
-    "timeWeek": 1011,
-    "timeMonth": 1011,
-    "timeYear": 1011,
+    "time": 1046,
+    "timeDay": 1046,
+    "timeWeek": 1046,
+    "timeMonth": 1046,
+    "timeYear": 1046,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 957,
-    "timeDay": 957,
-    "timeWeek": 957,
-    "timeMonth": 957,
-    "timeYear": 957,
+    "time": 959,
+    "timeDay": 959,
+    "timeWeek": 959,
+    "timeMonth": 959,
+    "timeYear": 959,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 770,
-    "timeDay": 770,
-    "timeWeek": 770,
-    "timeMonth": 770,
-    "timeYear": 770,
+    "time": 856,
+    "timeDay": 856,
+    "timeWeek": 856,
+    "timeMonth": 856,
+    "timeYear": 856,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 538,
-    "timeDay": 538,
-    "timeWeek": 538,
-    "timeMonth": 538,
-    "timeYear": 538,
+    "time": 564,
+    "timeDay": 564,
+    "timeWeek": 564,
+    "timeMonth": 564,
+    "timeYear": 564,
     "dailyMinutesDown": {}
   },
   {
@@ -77,18 +77,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/einsatz.demo.agentschmidt.com.ico",
     "slug": "einsatzplanung-backup-und-reset",
     "status": "up",
-    "uptime": "76.64%",
-    "uptimeDay": "76.64%",
-    "uptimeWeek": "76.64%",
-    "uptimeMonth": "76.64%",
-    "uptimeYear": "76.64%",
-    "time": 511,
-    "timeDay": 511,
-    "timeWeek": 511,
-    "timeMonth": 511,
-    "timeYear": 511,
-    "dailyMinutesDown": {
-      "2026-11-08": 1
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 532,
+    "timeDay": 532,
+    "timeWeek": 532,
+    "timeMonth": 532,
+    "timeYear": 532,
+    "dailyMinutesDown": {}
   }
 ]
